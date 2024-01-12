@@ -13865,3 +13865,70 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 160.0
+  - Name: LED1
+    Id: g=01d913a7c6d86caa332ba0b3e5d8ef6c
+    Type: Led
+    Children:
+    - Name: Active
+      Id: g=0400562a1afebfb92c4ac9ac7abffbb0
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Id: g=47655c92c84ba1c7116afb830e4d9e12
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/FTOptoix_project_First/Model/DATALOGGER/MOTOR_STATUS"
+    - Name: Width
+      Id: g=a7aec3d25879f1472e6d7966c4ed6942
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=1bc7781163dfd5a78c556885dba8f429
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: TopMargin
+      Id: g=3696358fea7c5788a15edf93c9b5b886
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 220.0
+    - Name: LeftMargin
+      Id: g=2f31d824ae7d8527d191a74b4aa07c00
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 840.0
+  - Name: Label1
+    Id: g=368c1c06f0188e9bbbc205bd281e9f3c
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=0f64f999976ab8ff42b03c3091d924b5
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Motor Status"}
+    - Name: TopMargin
+      Id: g=8005c4d3ff3e3b92c65da51e2d6ba1e4
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 280.0
+    - Name: LeftMargin
+      Id: g=da67fd1a0f6d8429a5b0f5d2dd166fe7
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 786.0
+    - Name: FontSize
+      Id: g=00ed91d4d81a97404f2c19689d3566e4
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
