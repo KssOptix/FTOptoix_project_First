@@ -162,3 +162,8 @@ Children:
   Value: "0"
 - File: eCharts/eCharts.yaml
 - File: MQTT_Data/MQTT_Data.yaml
+- Name: Test_SAAS
+  Id: g=6c1ecae6624d210cd43919bfae96a9d1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
