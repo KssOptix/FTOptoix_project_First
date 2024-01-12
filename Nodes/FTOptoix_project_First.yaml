@@ -1,0 +1,90 @@
+Name: FTOptoix_project_First
+Id: g=1e138abe38cc052b823dcca68c4bd3e7
+Type: ProjectFolder
+Children:
+- Name: Localization
+  Id: g=9e7e97d9396e7190a1e5294b0560a0fe
+  Type: PropertyGroup
+  Children:
+  - Name: Locales
+    Id: g=6a098406b41fa0badd37e6e4401a4427
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US","hi-IN","or-IN"]
+  - Name: LocaleFallbackList
+    Id: g=a6a6e2dbd2d2fd13fefa95658b66696a
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+- Name: Authentication
+  Id: g=c699e98c0081ec5e3c655826fd33486b
+  Type: PropertyGroup
+  Children:
+  - Name: DefaultUserFolder
+    Id: g=5aa90660e4fb637f3fdf9a6806317bcb
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/FTOptoix_project_First/Security/Users"
+    Children:
+    - Name: Kind
+      Id: g=5adc8e3b88c07bb4af8783aed9c2b13c
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+- Name: PasswordPolicy
+  Id: g=02de1eabfb85770504df150612f934ff
+  Type: PasswordPolicy
+  Children:
+  - Name: MaximumPasswordAge
+    Id: g=3015e40649c961367be5f085791697be
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 0
+  - Name: EnforcePasswordHistory
+    Id: g=488c9f22dbef6a6f3f2e602a923ac6a6
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 1
+  - Name: MinimumPasswordAge
+    Id: g=e4565a36f6b810cdaec5480e283ba6e2
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 0
+  - Name: MinimumPasswordLength
+    Id: g=6d8990782558e6774750d9ee7b13b416
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 8
+- Name: AlarmConfiguration
+  Id: g=229fbe32313e05465fc9eda63c113377
+  Type: PropertyGroup
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: Converters/Converters.yaml
+- File: Alarms/Alarms.yaml
+- File: Recipes/Recipes.yaml
+- File: Loggers/Loggers.yaml
+- File: DataStores/DataStores.yaml
+- File: Reports/Reports.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: CommDrivers/CommDrivers.yaml
+- File: NetLogic/NetLogic.yaml
+- File: Security/Security.yaml
+- File: System/System.yaml
+- File: Translations/Translations.yaml
+- File: Retentivity/Retentivity.yaml
+- Name: RecipeSchema1
+  Id: g=aba10e71a3cc4eb585f2766485935446
+  Type: Alias
+  DataType: NodeId
+  Value: "/Objects/FTOptoix_project_First/Recipes/RecipeSchema1/EditModel"
+  Children:
+  - Name: Kind
+    Id: g=e002ce2d3a77a8d82fa6d41211141be0
+    Type: PropertyType
+    DataType: NodeId
+    Value: "/Objects/FTOptoix_project_First/Recipes/RecipeSchema1/EditModel"

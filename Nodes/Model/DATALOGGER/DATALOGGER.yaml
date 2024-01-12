@@ -1,0 +1,88 @@
+Name: DATALOGGER
+Id: g=5c3f267ab21113a98365d11f60564c48
+Type: FolderType
+Children:
+- Name: MOTOR_STATUS
+  Id: g=7287569f563a75840caf88446b2fe961
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: 'SPEED-01'
+  Id: g=d63bb77778bb520c5efb219257fadb86
+  Type: AnalogItemType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: EURange
+    Id: g=599bb61aa4e275b2e59db90e26970f11
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Id: g=882b47388b2741be2b49f5b279a6cde9
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: g=3084176c7f409f52a67528246fabf052
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+- Name: 'SPEED-02'
+  Id: g=1cb991007502216ad62a44e94d5add04
+  Type: AnalogItemType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: EURange
+    Id: g=5e24614088a148f85fa34806d5fedd5a
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Id: g=6f8d4a038d959b9da7723ba6500542a7
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: g=e670cfab95baefa109c978c4c8b4080a
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+- Name: 'SPEED-03'
+  Id: g=f759b708a2fd5dbf9ed3084844cc7345
+  Type: AnalogItemType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: EURange
+    Id: g=6406002803081a04e3ed82ac5b0916dc
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Id: g=7d8f18cfeb1a4d2d3634605fda419a77
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Id: g=942a47da89a121a33667c536a9778e77
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+- Name: SET_SPEED
+  Id: g=4d3b87fe17e32175c21b93d7bf88bf3e
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Mode
+  Id: g=309078b5368d222071fb7d361c83299d
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

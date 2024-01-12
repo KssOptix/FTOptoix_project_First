@@ -1,0 +1,86 @@
+<!--
+	THIS EXAMPLE WAS DOWNLOADED FROM https://echarts.apache.org/examples/en/editor.html?c=pie-simple&theme=dark&code=PYBwLglsB2AEC8sDeAoWtJgDYFMBcya6GOAHmAQOQCyAnrAApYCG0YjATsACYCuAxpBiUANEXQBnXgCMwZCrEoAVHG2aQAbjlgARdc1HjYuAGYLK_VXI6UiAXzHowwYFkggCqYhg4QA5n44HFQQcgC2tugORLiB0NyeRsC-VlRaHJD8zFiG3qbm-ZGw0ZJBEDgSBADaRl7esNDMYfiKAIL8lhISsABiXBGO9WC0IC2UIOW59RzM3BC8lYoArAAMAKRT3tz61UbeSLAa2bwtAIwrACwAHCINTWNKwGDZsADiLtycPAJC0JTFg3qyEOxxaAHYAMxLW6NZpUABKOAAVjhBP8SkDgUcsCcCEsrisYfcqAwgiZgGFWJZ0YD6gdsbjYNcLkS4W0jhAsBBpJzhjS9sR6aCCBCVoS7mzKABFXjZUK0dECgC6tPQODCIAAFswJBBFnUgaF1QBlYa4RKY4gSbXcYAAdwAQjjgrBzqr6tbZvaAPImEwSHBgAAaBEJAu8nttdoAwq5klQOH5pMwABTi9O3FYAOiWAEoikC7AKi94S7AlSg7ABuIA
+	⚠ Please be aware that this chart is not an official demo of Apache ECharts but is made by user-generated code.
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.3/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/china.js"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.3/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, 'dark', {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    option = {
+  title: {
+    text: 'My Plant Production',
+    subtext: 'Tentative Data',
+    left: 'center'
+  },
+  tooltip: {
+    trigger: 'item'
+  },
+  legend: {
+    orient: 'vertical',
+    left: 'left'
+  },
+  series: [
+    {
+      name: 'Access From',
+      type: 'pie',
+      radius: '50%',
+      data: [
+        { value: 1048, name: 'Total Good Production' },
+        { value: 735, name: 'Reject' },
+        { value: 580, name: 'Perfomance' },
+        { value: 484, name: 'Availibilty' },
+        { value: 300, name: 'Quality' }
+      ],
+      emphasis: {
+        itemStyle: {
+          shadowBlur: 10,
+          shadowOffsetX: 0,
+          shadowColor: 'rgba(0, 0, 0, 0.5)'
+        }
+      }
+    }
+  ]
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>

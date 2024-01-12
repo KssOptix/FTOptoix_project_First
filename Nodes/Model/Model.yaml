@@ -1,0 +1,164 @@
+Name: Model
+Id: g=2d0bb9afbc9f0d9b284fa846fd146749
+Type: ModelCategoryFolder
+Children:
+- Name: Variable1
+  Id: g=f589e64dbfe68de5f9b2496437c9edad
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 20
+- Name: Variable2
+  Id: g=1baffc76af14a03404db801e9b45ede0
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable3
+  Id: g=5c06d0504429e74b1d9e6bdc65388c43
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable1Changed
+  Id: g=11e506a80883d89556cd7682b4c50949
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Id: g=9d1683befa8dc198c577a7a734021e0f
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../Variable1"
+- Name: Variable1Transitioned
+  Id: g=7146b0859027d48129db45c587922f31
+  Type: VariableTransitionEventDispatcher
+  Children:
+  - Name: Value
+    Id: g=c6a01db06aa9e517aef2ec5c20653cf2
+    Type: BaseVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: Transition
+    Id: g=aad9711aecb0d64e03b3f00a888aea14
+    Type: BaseVariableType
+    DataType: VariableTransition
+    Value: 0
+  - Name: VariableNodePath
+    Id: g=780a948e9ef8ef82c3a37e2ca26e06be
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../Variable1"
+- Name: MOTORInstance3
+  Id: g=b2fc29766b7db2d158e612f4787223fd
+  Type: MOTOR
+  Children:
+  - Name: START
+    Id: g=481482cd3258a4d9e367bf8d48bba104
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: STOP
+    Id: g=7edd2d4740c22db0bd489b64db358e39
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: SPEED
+    Id: g=9c373a40c61d06f7e8257325af563dc2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: NAME
+    Id: g=aa850e2dda781b0f1957347cfb52b580
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MOTOR3"
+- Name: MOTOR
+  Id: g=38603e57bdd6a78b2a8da81c13b2f509
+  Supertype: BaseObjectType
+  Children:
+  - Name: START
+    Id: g=a8a98fdb7d63521e6a6ce48be2c221db
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: STOP
+    Id: g=082dbcaf6c27741da9774162d0e5eb39
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: SPEED
+    Id: g=3805e6ec6721f40ccf3391677b58c043
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: NAME
+    Id: g=43b8ec3db84b2101e1c1e9d6805fd2e4
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+- Name: MOTORInstance1
+  Id: g=9891a51afcde3344af9a7933fded7ed9
+  Type: MOTOR
+  Children:
+  - Name: START
+    Id: g=abc22a681136e3f6bc3bb81c75329351
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: STOP
+    Id: g=7895aec2fe9355e277eb1c21f43a6a30
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: SPEED
+    Id: g=50b327148989f3b0817825ade564a879
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: NAME
+    Id: g=bcf543bdd7cf184ca86466801b35b326
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MOTOR1"
+- Name: MOTORInstance2
+  Id: g=c9bdda3a1b8aafe0d17e4cc17eb56fe2
+  Type: MOTOR
+  Children:
+  - Name: START
+    Id: g=1c0109c61edd7a51c2b759e0ca7f8951
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: STOP
+    Id: g=00353d2119d39b8dd9a8343dee24c1ca
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: SPEED
+    Id: g=ef16901e7e38f0d6f26d49bf5c811466
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: NAME
+    Id: g=a0f9a81c2b0015c20f24567febd0b44b
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MOTOR2"
+- File: DATALOGGER/DATALOGGER.yaml
+- Name: TO
+  Id: g=1958075b3859a7194e75937ea56d6486
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2024-01-10T23:00:00.0000000"
+- Name: FROM
+  Id: g=cf075c4ca65e31697c075861c0b61580
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2024-01-09T00:00:00.0000000"
+- File: EventLogger/EventLogger.yaml
+- File: Alarm/Alarm.yaml
+- File: Recipe/Recipe.yaml
+- Name: Email_Path
+  Id: g=6a46025925c0762877af07eb21317696
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- File: eCharts/eCharts.yaml
+- File: MQTT_Data/MQTT_Data.yaml

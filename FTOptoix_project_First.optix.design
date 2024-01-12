@@ -1,0 +1,63 @@
+Project:
+ Name: FTOptoix_project_First_Design
+ ProjectNamespaceIndex: 4
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.3
+ CoreVersion: 3.0
+ Dependencies:
+  2:
+   Uri: FTOptoix_project_First
+   RelativePath: FTOptoix_project_First.optix
+  3:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 3.1
+  5:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 1.1
+  6:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 1.0
+  7:
+   Uri: 'urn:FTOptix:TagImporter'
+   Module: FTOptix.TagImporter
+   Version: 1.0
+  8:
+   Uri: 'urn:FTOptix:RAEtherNetIPTagImporter'
+   Module: FTOptix.RAEtherNetIPTagImporter
+   Version: 1.0
+  9:
+   Uri: 'c8e529d08bfd8fba7ec282860d52c2a6#http://opcfoundation.org/UA/DI/'
+   ServerUri: c8e529d08bfd8fba7ec282860d52c2a6
+  10:
+   Uri: 'c8e529d08bfd8fba7ec282860d52c2a6#urn:ipt-kss:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: c8e529d08bfd8fba7ec282860d52c2a6
+  11:
+   Uri: 'c8e529d08bfd8fba7ec282860d52c2a6#http://PLCopen.org/OpcUa/IEC61131-3/'
+   ServerUri: c8e529d08bfd8fba7ec282860d52c2a6
+  12:
+   Uri: 'c8e529d08bfd8fba7ec282860d52c2a6#http://www.unifiedautomation.com/DemoServer/'
+   ServerUri: c8e529d08bfd8fba7ec282860d52c2a6
+  13:
+   Uri: 'urn:FTOptix:OPCUAImporter'
+   Module: FTOptix.OPCUAImporter
+   Version: 1.0
+ Statistics:
+  TotalNodeCount: 7
+  Objects: 2
+  ObjectTypes: 0
+  Variables: 5
+  VariableTypes: 0
+  DataTypes: 0
+  Methods: 0
+  References: 0
+  ReferenceTypes: 0
+  Files: 2
+ Nodes:
+ - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/TagImporter.yaml
+ - File: 'DesignTimeNodes/OPC-UA/OPCUAClient/OPCUATagImporter.yaml'

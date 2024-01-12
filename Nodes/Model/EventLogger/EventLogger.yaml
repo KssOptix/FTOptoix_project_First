@@ -1,0 +1,19 @@
+Name: EventLogger
+Id: g=0e0379d94a4da5f0777166761ceacfd2
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=fd47eaeb1c0796b1514373aae7536d3c
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 12
+- Name: Variable2
+  Id: g=d921db6f3cbd4441eddceb7447e937f1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 15
+- Name: Analog_Var
+  Id: g=8331659896bf45a08b9618cb387f592f
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 13.399999618530273

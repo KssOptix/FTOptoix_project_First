@@ -1,0 +1,128 @@
+Name: Retentivity
+Id: g=6c058ef06bb46651ae6e277890a0642c
+Type: RetentivityCategoryFolder
+Children:
+- Name: SecurityRetentivityStorage
+  Id: g=05dcaf06eaab00faed949773bc02dbdd
+  Type: RetentivityStorage
+  Children:
+  - Name: Nodes
+    Id: g=c7310a4744d9ff0f4a74950afc6e1885
+    Type: BaseObjectType
+    Children:
+    - Name: Node1
+      Id: g=7d8855b2b024a633d1ff309d84dceb4c
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/FTOptoix_project_First/Security"
+      Children:
+      - Name: Kind
+        Id: g=606ec12f48876f1526cf78b552888482
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NodeClass
+        Id: g=e3c4f6778c817b7276c9f6f166e7a8a8
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+  - Name: WriteDelay
+    Id: g=7f52f3187efbddd1b061dca82573d507
+    Type: BaseDataVariableType
+    DataType: Duration
+    ReferenceType: HasProperty
+    Value: "0:00:00:0.0000000"
+  - Name: DeltaObserverEnabled
+    Id: g=dd0335e06a4d24461dd99a89097bc0fe
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: true
+- Name: AlarmsRetentivityStorage
+  Id: g=e4443b443ba55f9fecd92013e7dcfa42
+  Type: RetentivityStorage
+  Children:
+  - Name: Nodes
+    Id: g=0115713dfb80aa51b20d118d90c2bea2
+    Type: BaseObjectType
+    Children:
+    - Name: Node1
+      Id: g=f9ba681f743c9a8e4af7b8f5aabda1ee
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/FTOptoix_project_First/Alarms"
+      Children:
+      - Name: Kind
+        Id: g=e4bb14d068692445ca79892cdc8849ad
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NodeClass
+        Id: g=9abfd5a6e4caeda9e8217ebf8c93c390
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+  - Name: WriteDelay
+    Id: g=98cbec94ae9731fbe95456d1c4891d96
+    Type: BaseDataVariableType
+    DataType: Duration
+    ReferenceType: HasProperty
+    Value: "0:00:00:0.0000000"
+  - Name: DeltaObserverEnabled
+    Id: g=342a876b42d4f4dbba061698dd16aa53
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: true
+- Name: Variable_Retentivity
+  Id: g=94c6a5ac50187b94c8def5db953ed5e2
+  Type: RetentivityStorage
+  Children:
+  - Name: Nodes
+    Id: g=8540d1041fa75bd2617f579b9498fd91
+    Type: BaseObjectType
+    Children:
+    - Name: Node1
+      Id: g=74cccb1b8a46996e5f6a2425cd066140
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/FTOptoix_project_First/Model/eCharts"
+      Children:
+      - Name: Kind
+        Id: g=9aed894aba610660304eea16ec698633
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NodeClass
+        Id: g=dd31fe36c650ed0df34893cc26293a6a
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+    - Name: Node2
+      Id: g=47f45235c19c94a00ab156db7e350223
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/FTOptoix_project_First/Security"
+      Children:
+      - Name: Kind
+        Id: g=433cd570bbca669e23af63017b9f2004
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NodeClass
+        Id: g=96455399e05554a3d7ded24417150b11
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+  - Name: WriteDelay
+    Id: g=b8305a09f49204e95b5b8f9971187348
+    Type: BaseDataVariableType
+    DataType: Duration
+    ReferenceType: HasProperty
+    Value: "0:00:00:0.0000000"
+  - Name: DeltaObserverEnabled
+    Id: g=9257b78a2d7147bdde9f9d8baba561e0
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: true

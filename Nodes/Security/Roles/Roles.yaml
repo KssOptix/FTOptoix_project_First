@@ -1,0 +1,13 @@
+Name: Roles
+Id: g=168315c4ba704e70bb13e35de715eb03
+Type: RolesCategoryFolder
+Children:
+- Name: Maintenance
+  Id: g=be2b5aaaa3f2bae88ea2acac2c84b19e
+  Type: ns=1;RoleType
+- Name: Design
+  Id: g=1785fc6fd5a457071eb932ba0fc3e921
+  Type: ns=1;RoleType
+- Name: Administrative
+  Id: g=67b5fd8edfeb0165a1e51323e35edb76
+  Type: ns=1;RoleType

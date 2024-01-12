@@ -1,0 +1,169 @@
+Name: Users
+Id: g=8cdfe95c558e909385d4fe7ddc9a2655
+Type: UsersCategoryFolder
+Children:
+- Name: FTOptix_Admin
+  Id: g=4013a7b3d4bc8dc041e07553c06b6a79
+  Type: UserType
+  Children:
+  - Name: Language
+    Id: g=0a18c2b8b8b48371fc3651772ab33977
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=9fadbff9cb296774c729543aa867a6e7
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 0
+  - Class: Reference
+    Type: HasGroup
+    Target: g=d908d0848be931db529d043e9d4a9a2d
+  - Class: Reference
+    Type: HasRole
+    Target: g=67b5fd8edfeb0165a1e51323e35edb76
+  - Name: Password
+    Id: g=d683a22a3d8b9a1aef3029ad5cbfaca6
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=48e20dede7aa29185d8f3a2308fcc9ed
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [207,197,118,231,252,155,209,181,130,82,26,66,144,139,3,178,16,20,191,46,161,254,26,201,147,218,39,233,22,62,1,163],
+         "Salt": [148,119,166,85,249,9,128,7,95,3,180,177,81,154,83,172,219,0,154,43,244,86,106,246,247,143,233,184,35,212,182,150]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=5efb14e33728abc087e5ee88b118b4f4
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2024-01-11T10:57:23.1915010"
+    - Name: History
+      Id: g=3dce97bb3c2092b33eb812659f63f4e1
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[207,197,118,231,252,155,209,181,130,82,26,66,144,139,3,178,16,20,191,46,161,254,26,201,147,218,39,233,22,62,1,163],"Salt":[148,119,166,85,249,9,128,7,95,3,180,177,81,154,83,172,219,0,154,43,244,86,106,246,247,143,233,184,35,212,182,150]}}]
+- Name: FTOptix_Engineer
+  Id: g=2085294c5623dcb0e46052053f7589d4
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=04c9f700919278da3c0cc04393d82a03
+  - Class: Reference
+    Type: HasRole
+    Target: g=1785fc6fd5a457071eb932ba0fc3e921
+  - Name: Password
+    Id: g=3c6c16251ea73eb0d5363a77aad8d8c5
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=837348bbf3462f921374db34e9c08d9f
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [237,71,104,107,145,89,117,55,35,103,15,92,177,115,152,244,180,96,122,29,235,156,87,164,197,79,68,4,218,41,64,80],
+         "Salt": [59,184,219,13,206,244,118,164,184,126,10,96,66,161,211,18,35,85,159,29,53,192,169,5,195,140,55,119,196,16,139,247]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=a39d78ade1fca3f9b24a0d9445af8f5b
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2024-01-11T10:57:28.8806206"
+    - Name: History
+      Id: g=1f5f2214fdd93d5e6e80ffc928018a4b
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[237,71,104,107,145,89,117,55,35,103,15,92,177,115,152,244,180,96,122,29,235,156,87,164,197,79,68,4,218,41,64,80],"Salt":[59,184,219,13,206,244,118,164,184,126,10,96,66,161,211,18,35,85,159,29,53,192,169,5,195,140,55,119,196,16,139,247]}}]
+  - Name: Language
+    Id: g=a5b497d1ba926a9ea48adbd787185613
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+- Name: FTOptix_Operator
+  Id: g=a756dc6b4a7d7dee7f8db279969f8619
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=be2b5aaaa3f2bae88ea2acac2c84b19e
+  - Name: Password
+    Id: g=f04fb8aa85324559f1c57283e33f0f41
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=029a4873914456bd1ee56b8e7f94292c
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [141,59,169,132,130,7,78,50,60,27,39,142,233,164,56,71,45,18,215,15,242,179,150,203,133,61,148,255,238,242,180,54],
+         "Salt": [64,165,60,133,166,83,254,156,47,144,241,172,19,233,81,41,72,254,130,195,12,59,107,101,112,12,47,29,82,66,248,231]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=485b5542387014006a6067c31d135c39
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2024-01-11T10:57:38.6179539"
+    - Name: History
+      Id: g=3a414d325d4292ff61dcbb0db6f8eb22
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[141,59,169,132,130,7,78,50,60,27,39,142,233,164,56,71,45,18,215,15,242,179,150,203,133,61,148,255,238,242,180,54],"Salt":[64,165,60,133,166,83,254,156,47,144,241,172,19,233,81,41,72,254,130,195,12,59,107,101,112,12,47,29,82,66,248,231]}}]
+  - Name: Language
+    Id: g=43ca1a2d0da2d90c292f08b7ba081ab2
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"

@@ -1,0 +1,144 @@
+Name: Translations
+Id: g=047cc0d6d5d7884487cc549de1eecb94
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Id: g=2a375242a73d922735723bf459baa46f
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [85,4],
+    "Body": [
+     "","en-US","hi-IN","or-IN",
+     "Acknowledge","Acknowledge","स्वीकार करना","স্বীকার করুন",
+     "Acknowledge All","Acknowledge All","सभी को स्वीकार करें","সব স্বীকার করুন",
+     "Confirm","Confirm","पुष्टि करना","নিশ্চিত করুন",
+     "Confirm All","Confirm All","सभी की पुष्टि करें","সব নিশ্চিত করুন",
+     "SourceName","Source Variable","स्रोत चर","উৎস পরিবর্তনশীল",
+     "Timestamp","Timestamp","समय-चिह्न","টাইমস্ট্যাম্প",
+     "Name","Name","नाम","নাম",
+     "Message","Message","संदेश","বার্তা",
+     "Active","Active","सक्रिय","সক্রিয়",
+     "Acked","Acked","अकड","Acked",
+     "Confirmed","Confirmed","की पुष्टि","নিশ্চিত করা হয়েছে",
+     "Severity","Severity","तीव्रता","নির্দয়তা",
+     "Save","Save","बचाना","সংরক্ষণ",
+     "Delete","Delete","मिटाना","মুছে ফেলা",
+     "RecipeControllerDeleted","deleted","हटाए गए","মুছে ফেলা",
+     "RecipesEditorNotFound","not found","नहीं मिला","পাওয়া যায় নি",
+     "RecipesEditorNotSet","is not set","सेट नहीं है","সেট করা হয় না",
+     "Load","Load","भार","বোঝা",
+     "RecipeControllerSaved","saved","बचाया","সংরক্ষিত",
+     "RecipeControllerCreatedAndSaved","created and saved","बनाया और सहेजा गया","তৈরি এবং সংরক্ষিত",
+     "Apply","Apply","आवेदन करना","আবেদন করুন",
+     "RecipeControllerEmptyRecipeName","Recipe name is empty","रेसिपी का नाम खाली है","রেসিপির নাম খালি",
+     "RecipeControllerRecipe","Recipe","व्यंजन विधि","রেসিপি",
+     "RecipeControllerRecipeApplied","Recipe applied","नुस्खा लागू किया गया","রেসিপি প্রয়োগ করা হয়েছে",
+     "RecipeControllerRecipeLoaded","Recipe loaded","रेसिपी भरी हुई","রেসিপি লোড",
+     "RecipesEditorRecipeSchemaNotFound","RecipeSchema variable not found","रेसिपीस्कीमा वेरिएबल नहीं मिला","RecipeSchema ভেরিয়েবল পাওয়া যায়নি",
+     "RecipesEditorRecipeSchemaNotSet","RecipeSchema not set","रेसिपीस्कीमा सेट नहीं है","রেসিপি স্কিমা সেট করা হয়নি",
+     "RecipesEditorRecipeNotFound","Recipe not found","नुस्खा नहीं मिला","রেসিপি পাওয়া যায়নি",
+     "RecipesEditorNotARecipe","is not a recipe","कोई नुस्खा नहीं है","একটি রেসিপি নয়",
+     "RecipesEditorStoreOfSchema","Store of schema","स्कीमा का भंडार","স্কিমার স্টোর",
+     "RecipesEditorStore","Store","इकट्ठा करना","দোকান",
+     "RecipesEditorNotAStore","is not a store","कोई दुकान नहीं है","একটি দোকান নয়",
+     "RecipesEditorEditModelOfSchema","EditModel of schema","स्कीमा का मॉडल संपादित करें","স্কিমার সম্পাদনা মডেল",
+     "Password","Password","पासवर्ड","পাসওয়ার্ড",
+     "Login","Login","लॉग इन करें","প্রবেশ করুন",
+     "Old password","Old password","पुराना पासवर्ड","পুরানো পাসওয়ার্ড",
+     "LoginChangePasswordFormUnsupportedOperation","Unsupported operation","असमर्थित ऑपरेशन","অসমর্থিত অপারেশন",
+     "New password","New password","नया पासवर्ड","নতুন পাসওয়ার্ড",
+     "Confirm password","Confirm password","पासवर्ड की पुष्टि कीजिये","পাসওয়ার্ড নিশ্চিত করুন",
+     "Change password","Change password","पासवर्ड बदलें","পাসওয়ার্ড পরিবর্তন করুন",
+     "Current User:","Current User:","तात्कालिक प्रयोगकर्ता:","বর্তমান ব্যবহারকারী:",
+     "Logout","Logout","लॉग आउट","প্রস্থান",
+     "Your password is expired. Please enter a new one","Your password is expired.\nPlease enter a new one.","आपका पासवर्ड समाप्त हो गया है।\nकृपया एक नया पासवर्ड दर्ज करें।","আপনার পাসওয়ার্ডের মেয়াদ শেষ হয়ে গেছে।\nদয়া করে একটি নতুন লিখুন।",
+     "LoginFormLoginSuccessful","Login successful","लॉग इन सफल","সফল লগইন",
+     "LoginFormPasswordExpired","Password expired","पासवर्ड का समय समाप्त हुआ","পাসওয়ার্ড মেয়াদ উত্তীর্ণ হয়েছে",
+     "LoginFormAuthenticationFailed","Authentication failed","प्रमाणीकरण विफल होना","প্রমাণীকরণ ব্যর্থ হয়েছে",
+     "LoginChangePasswordFormWrongOldPassword","Wrong old password","ग़लत पुराना पासवर्ड","ভুল পুরানো পাসওয়ার্ড",
+     "LoginChangePasswordFormPasswordAlreadyUsed","Password already used","पासवर्ड पहले ही उपयोग किया जा चुका है","পাসওয়ার্ড ইতিমধ্যে ব্যবহার করা হয়েছে",
+     "LoginChangePasswordFormPasswordChangedTooRecently","Password changed too recently","पासवर्ड हाल ही में बदला गया है","পাসওয়ার্ড খুব সম্প্রতি পরিবর্তিত হয়েছে",
+     "LoginChangePasswordFormPasswordTooShort","Password too short","पासवर्ड बहुत छोटा है","পাসওয়ার্ড খুব ছোট",
+     "LoginChangePasswordFormPasswordsDoNotMatch","Passwords do not match","सांकेतिक शब्द मेल नहीं खाते","পাসওয়ার্ড মিলছে না",
+     "LoginChangePasswordFormUserNotFound","User not found","उपयोगकर्ता नहीं मिला","ব্যবহারকারী খুঁজে পাওয়া যায় না",
+     "EmptyUserList","No users in list","सूची में कोई उपयोगकर्ता नहीं","তালিকায় কোনো ব্যবহারকারী নেই",
+     "Groups","Groups","समूह","গোষ্ঠী",
+     "Create","Create","बनाएं","সৃষ্টি",
+     "Cancel","Cancel","रद्द करना","বাতিল করুন",
+     "Locale:","Locale:","स्थान:","লোকেল:",
+     "PasswordChangedTooRecently","Password changed too recently","पासवर्ड हाल ही में बदला गया है","পাসওয়ার্ড খুব সম্প্রতি পরিবর্তিত হয়েছে",
+     "CannotCreateUserWithEmptyUsername","Cannot create user with empty username","खाली उपयोक्तानाम के साथ उपयोक्ता नहीं बनाया जा सकता","খালি ব্যবহারকারীর নাম দিয়ে ব্যবহারকারী তৈরি করা যাবে না",
+     "UnableToGetUsers","Unable to get users","उपयोगकर्ता प्राप्त करने में असमर्थ","ব্যবহারকারী পেতে অক্ষম",
+     "UserNotFound","User not found","उपयोगकर्ता नहीं मिला","ব্যবহারকারী খুঁজে পাওয়া যায় না",
+     "PasswordAlreadyUsed","Password already used in the past","पासवर्ड पहले से ही उपयोग किया जा चुका है","আগে থেকেই পাসওয়ার্ড ব্যবহার করা হয়েছে",
+     "PasswordTooShort","Password too short","पासवर्ड बहुत छोटा है","পাসওয়ার্ড খুব ছোট",
+     "UnsupportedOperation","Unsupported operation","असमर्थित ऑपरेशन","অসমর্থিত অপারেশন",
+     "ChangesAppliedSuccessfully","Changes applied successfully","परिवर्तन सफलतापूर्वक लागू किए गए","পরিবর্তনগুলি সফলভাবে প্রয়োগ করা হয়েছে৷",
+     "UsernameAlreadyExists","Username already exists","उपयोगकर्ता का नाम पहले से मौजूद है","ব্যবহারকারীর নাম আগে থেকেই আছে",
+     "A vendor-specific, human readable string that specifies how the value of this DataItem is calculated.","A vendor-specific, human readable string that specifies how the value of this DataItem is calculated.","","",
+     "AckedState_Id","AckedState_Id","AckedState_Id","AckedState_Id",
+     "EXPORT","EXPORT","निर्यात","রপ্তানি",
+     "Export","Export","निर्यात","রপ্তানি",
+     "Fill","Fill","भरना","ভরাট",
+     "Heat/ Cool","Heat/ Cool","गर्म ठंडा","তাপ/ঠান্ডা",
+     "HeaterStatus","HeaterStatus","हीटर स्थिति","হিটার স্ট্যাটাস",
+     "ValuePrecision","ValuePrecision","मूल्यपरिशुद्धता","মান যথার্থতা",
+     "Time Range","Time Range","समय सीमा","সময় পরিসীমা",
+     "Time Window","Time Window","समय खिड़की","টাইম উইন্ডো",
+     "The maximum precision that the server can maintain for the item based on restrictions in the target environment.","The maximum precision that the server can maintain for the item based on restrictions in the target environment.","लक्ष्य परिवेश में प्रतिबंधों के आधार पर सर्वर आइटम के लिए अधिकतम सटीकता बनाए रख सकता है।","লক্ষ্য পরিবেশে বিধিনিষেধের উপর ভিত্তি করে সার্ভার আইটেমের জন্য সর্বোচ্চ নির্ভুলতা বজায় রাখতে পারে।",
+     "TemperatureSensor","TemperatureSensor","तापमान संवेदक","তাপমাত্রা সেন্সর",
+     "Temperature","Temperature","तापमान","তাপমাত্রা",
+     "Temperature Setpoint [°C]","Temperature Setpoint [°C]","तापमान सेटपॉइंट [डिग्री सेल्सियस]","তাপমাত্রা সেটপয়েন্ট [°সে]",
+     "Shift Report Data","Shift Report Data","शिफ्ट रिपोर्ट डेटा","রিপোর্ট ডেটা স্থানান্তর করুন",
+     "SPEED","SPEED","रफ़्तार","গতি",
+     "A vendor-specific human readable string that specifies how the value of this DataItem is calculated.","A vendor-specific  human readable string that specifies how the value of this DataItem is calculated.","एक विक्रेता-विशिष्ट मानव पठनीय स्ट्रिंग जो निर्दिष्ट करती है कि इस डेटाआइटम के मूल्य की गणना कैसे की जाती है।","একটি বিক্রেতা-নির্দিষ্ট মানুষের পঠনযোগ্য স্ট্রিং যা নির্দিষ্ট করে কিভাবে এই DataItem-এর মান গণনা করা হয়।",
+     "Temperature Setpoint [�C]","Temperature Setpoint [�C]","?????? ???????? [?????? ????????]","????????? ?????????? [�??]"
+    ]
+   }
+- Name: ImportAndExportTranslations
+  Id: g=4be76223a9bf0178e54f9b6644144151
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=07dc55c4cc98ea9a67110e4e85e97748
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: CSVPath
+    Id: g=5de59744b8897a4d804310f76a48db6d
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///C:/Users/Lenovo/Desktop/FTOPTIX/FTOptoix_project_First/ProjectFiles/LANGUAGE.csv"
+  - Class: Method
+    Name: ExportTranslations
+    Id: g=cab59de8372e9a55102db8ffa3764d55
+  - Class: Method
+    Name: ImportTranslations
+    Id: g=953e21729c7eeff4a334d5c8cef268ff
+  - Name: CharacterSeparator
+    Id: g=50919da543b352cdad7894694a55be7e
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ","
+  - Name: WrapFields
+    Id: g=6ef7622e388e9730010205e53f0dc4cf
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: LocalizationDictionary
+    Id: g=8e2c69a5cc902f6c4ffd3edf4b3268e5
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/FTOptoix_project_First/Translations/LocalizationDictionary1"
+    Children:
+    - Name: Kind
+      Id: g=7df16942c6c3b0d613a9ca55513ae8be
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/VariableTypes/BaseVariableType/LocalizationDictionary"

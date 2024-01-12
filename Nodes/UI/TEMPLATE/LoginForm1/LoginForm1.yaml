@@ -1,0 +1,100 @@
+Name: LoginForm1
+Id: g=eabc8627afdc642c9f75d5f57e26a882
+Type: FolderType
+Children:
+- Name: LoginForm
+  Id: g=d0fba00ff93f064d6e1cb546eea27209
+  Supertype: PanelLoader
+  ReferenceType: HasComponent
+  Children:
+  - Name: Panel
+    Id: g=57d5214e6175665fbf3fd02027e6a3c0
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=b7e9daac377ff8a4007e98cde24c5126
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+    - Name: ConditionalConverter1
+      Id: g=affbdf6d0d88a187efba68f500c50c19
+      Type: ConditionalConverter
+      Children:
+      - Name: Condition
+        Id: g=4361ba6376712a3983e2edbc6c30fe9c
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ReferenceType: HasSource
+        Value: false
+        Children:
+        - Name: DynamicLink
+          Id: g=ca894a7d79d3a97e810c07474258e184
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/LoggedIn"
+      - Name: TrueValue
+        Id: g=11195e388b1bf8fa037c27c2b54b7802
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: "/Objects/FTOptoix_project_First/UI/TEMPLATE/LoginForm1/LoginFormComponents/Logout"
+      - Name: FalseValue
+        Id: g=d6edf5217522bf462c57e79816c595bd
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: "/Objects/FTOptoix_project_First/UI/TEMPLATE/LoginForm1/LoginFormComponents/Login"
+  - Name: CurrentPanel
+    Id: g=240744acaffba42a861b82d072272f03
+    Type: NodePointer
+    DataType: NodeId
+    AccessLevel: Read
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=e402c4485ce89a7dfe94768892e23249
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+  - Class: Reference
+    Target: ns=3;i=478
+  - Name: Width
+    Id: g=39835413a95ab5b30b60d1099faec15d
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Id: g=8ac85e9a15cc9d5e6db633f85fa251cf
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Users
+    Id: g=c65012d75b7577e310c6615185b9bc8f
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/FTOptoix_project_First/Security/Users"
+    Children:
+    - Name: Kind
+      Id: g=9c294905cff17818cad7c98691a3eb7d
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+  - Name: PanelAliasNode
+    Id: g=83a52b22fda8646af10d748200e09b2c
+    Type: BaseDataVariableType
+    DataType: NodeId
+    ValueRank: ScalarOrOneDimension
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: DynamicLink
+      Id: g=400d822b43dc7469e1c7f17b6e4771ae
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../Users@NodeId"
+- File: LoginFormComponents/LoginFormComponents.yaml

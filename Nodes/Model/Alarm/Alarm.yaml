@@ -1,0 +1,65 @@
+Name: Alarm
+Id: g=fd8abd557fc955f948f0f48e3ec3943b
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=dce0c8d00319e31cdb4f3d4270492c99
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Variable2
+  Id: g=8b2c4ce93c3e48b98e3fbe82c6e96632
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: AnalogVariable1
+  Id: g=0d03d3916cdb25ee9e2512372537d9a8
+  Type: AnalogItemType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: EURange
+    Id: g=27cefddf80117136dce93da9efb9230b
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Id: g=de5de6cde32a74bc7304528664f668ab
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 20.0
+    - Name: High
+      Id: g=978fdb314861b675f1abf538e56991d2
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 80.0
+- Name: AnalogVariable2
+  Id: g=affcad995d37973292763f3ac2421b68
+  Type: AnalogItemType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: EURange
+    Id: g=84b181e67fc0540fd94f9af7d8ca4030
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Id: g=287fa2a3dd942c5b20778f088ab82003
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 20.0
+    - Name: High
+      Id: g=d0d57868cb71a118588b16e7e9b460e8
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 80.0
+- Name: Email_Alarm
+  Id: g=667366f38faf54e6bb8a89c85bff811a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

@@ -1,0 +1,24 @@
+Name: Recipe
+Id: g=49e934324d76973f729cd6d33f838fa5
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=7d56a0b2e49517e7055367282ca40911
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Variable2
+  Id: g=c60335e3e2e2b0dc6a3ccc2f02235826
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable3
+  Id: g=fec4980266d79bfb9b67512e2f7e207b
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: Variable4
+  Id: g=6d0bd42debd18e035b890e27a6a4b1c9
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

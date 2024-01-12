@@ -1,0 +1,877 @@
+Name: UI
+Id: g=2939380aa154b3579535f1fde697e97e
+Type: UICategoryFolder
+Children:
+- Name: DefaultStyleSheet
+  Id: g=8da2b5865c73184b748c69f73d34bedf
+  Type: StyleSheet
+  Children:
+  - Name: ButtonStyles
+    Id: g=8a1b9ef868590b12f256c6f5df492cc6
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=450c47ce480e626e2e4a42972d01cdd8
+      Type: ButtonStyle
+    - Name: Accent
+      Id: g=b28e125726c39f2d2a123044c94e6026
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=9f6e67105bfb347c026c4e3d1799e947
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: BorderColor
+        Id: g=7c43ceeb0e160af26326e344fa50da57
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#075982"
+      - Name: TextColor
+        Id: g=692dbe3d57fbba8493c7f4f17340ad63
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+    - Name: BorderedRectangular
+      Id: g=1ea1a5ae31c854faf699caccbb811df1
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=9ecb8e965ed0afe78327f14af7cc6131
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Id: g=7cb423f30163f18e413c373cb88c2e8f
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Id: g=2e20fb76acd0b35c91d9f3164b8a6540
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Id: g=2d54a70e1b8a2d1fc903d29a652d29c7
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+    - Name: BorderedCircular
+      Id: g=a8bf97f068da37a8029c669d6473fafa
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=a4ec92939041e0c1eb5c7be083ea0724
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Id: g=f7d05ac2e3402be6f129831fd15fcc6e
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Id: g=c0f397f5ea06403599499e74138cae7e
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e4e4e4"
+      - Name: BorderWidth
+        Id: g=c07b28b4ba0bbe987a8740f4dd03fa96
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Id: g=0793c4fdc456da51311e834d541b8a4f
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Emergency
+      Id: g=7cc16d265ab843d21899ba998e4b0aeb
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=88e84d95ac0bfb847293f1856a9a2b9d
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#eb001b"
+      - Name: TextColor
+        Id: g=f9c1102e66e51884def98ff8ac939244
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: BorderColor
+        Id: g=111107b7549137d47b0f75476993e98f
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#f8e71c"
+      - Name: BorderWidth
+        Id: g=f34b668927dd59ff8e5f6389f3ab9828
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 5.0
+      - Name: Radius
+        Id: g=bf1ca39e85386361e140aa4764b9351e
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: -1.0
+    - Name: Transparent
+      Id: g=0259e13f2165792e7f6aa20cd96bf952
+      Type: ButtonStyle
+      Children:
+      - Name: Color
+        Id: g=3e15fd7b88bccfe6fd256b399a627133
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BorderColor
+        Id: g=3684468b2352b5fc4f849ec692c16420
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BorderWidth
+        Id: g=e26d673e8124341e5fab0f1e0f5bbdde
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 0.0
+  - Name: InputBoxStyles
+    Id: g=b0322ab89433ab2b2674e6a78fbb3460
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=38a839093518d054f2b4dba943625ecd
+      Type: InputBoxStyle
+  - Name: SwitchStyles
+    Id: g=cd7a9415d05389299cd51d2cb7a047af
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=76676b854085af8b2bbbd42da712c86b
+      Type: SwitchStyle
+  - Name: GaugeStyles
+    Id: g=1da8243e223eeee2dc001bf4a7cc2a5e
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=3540219f03ac695299881a1d55183089
+      Type: GaugeStyle
+  - Name: NavigationPanelStyles
+    Id: g=db5d975697f3a7a06f1730a9018c3eef
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=cd324b0c51d4d2f31a71ea3ab2051418
+      Type: NavigationPanelStyle
+  - Name: ChartStyles
+    Id: g=4f0a01de7285647c5205f2419321f7a0
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=a3f65586a697318f0b8dc626b42a3a7c
+      Type: ChartStyle
+  - Name: DataListStyles
+    Id: g=27afadd6c5b34dafe3dc3671de6c4db4
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=e35f1bca7db35c9d55fe9a085d18d456
+      Type: DataListStyle
+  - Name: ToolTipStyles
+    Id: g=f689ec346ab695420ae0eca3a5608021
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=06a87613eeb12738f6fd7bddeb57fd60
+      Type: ToolTipStyle
+  - Name: ScrollBarStyles
+    Id: g=b785977736d067c84316466833e03196
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=e599c8fc5415b55107a45b6585ff78dd
+      Type: ScrollBarStyle
+  - Name: AccordionStyles
+    Id: g=8b9ca1eac87be53d85eabda702bf2882
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=ba32854180e28109ec719b755022e42c
+      Type: AccordionStyle
+  - Name: PieChartStyles
+    Id: g=9433ed0ea1872b32a060002e97a6dc2e
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=b4b1ec2f730d04d2fa11793199e27cbd
+      Type: PieChartStyle
+  - Name: HistogramChartStyles
+    Id: g=9c445e7a68de2a69cc888b81608e9a17
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=e229e1004a81cd8603602b39c00df3d7
+      Type: HistogramChartStyle
+  - Name: LabelStyles
+    Id: g=51a76b2100dbac99715fc93945db4dd8
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=4b4f4ced092d51e784f58843eaa82af3
+      Type: LabelStyle
+  - Name: RadioButtonStyles
+    Id: g=26adc6208fe19ae5515b4e3d61ae4706
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=56c15bf17f76d7a6398f4c747b6f813d
+      Type: RadioButtonStyle
+  - Name: CheckBoxStyles
+    Id: g=352a33af6e76152741a5c3f8a1e42c39
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=5e36217deefc261e1827e246713305e4
+      Type: CheckBoxStyle
+- Name: NativePresentationEngine
+  Id: g=e6d1ccc2969c6de2168f1317b68fdbef
+  Type: NativePresentationEngine
+  ReferenceType: HasOrderedComponent
+  Children:
+  - Name: EnableVirtualKeyboard
+    Id: g=4899fc7c1bfc6e4ce26ee0cb8e0bfe21
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: StartWindow
+    Id: g=64c59ba79353499f6d3861c52d82a2b0
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/FTOptoix_project_First/UI/MainWindow"
+    Children:
+    - Name: Kind
+      Id: g=08a34881d1c552294aee15a4c7975ad9
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
+  - Name: StyleSheet
+    Id: g=eb856dada8edace6817be3545e7b8ab1
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/FTOptoix_project_First/UI/DefaultStyleSheet"
+    Children:
+    - Name: Kind
+      Id: g=bf1d62db9d91faf1a4422ea9314bce6a
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+  - Name: StartingUser
+    Id: g=25a49ee60714d888e213a2e3987636f1
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Users/Anonymous"
+    Children:
+    - Name: Kind
+      Id: g=fc034612fa98841280b0c097d7c62809
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+  - Name: Sessions
+    Id: g=936821515fe2bc3348d1b38a2b3a8520
+    Type: BaseObjectType
+- Name: MainWindow
+  Id: g=01a7e8933afd7c95fe894b0859308138
+  Supertype: Window
+  Children:
+  - Name: Width
+    Id: g=a2efe5dd09d2644e62ac50b7f54d8cf0
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1324.0
+  - Name: Height
+    Id: g=60d4a5d4e4eed3bf6a398d9745955216
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 768.0
+  - Name: Caption
+    Id: g=a82dc219fcd35798682747e379d855b5
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+    Children:
+    - Name: DynamicLink
+      Id: g=a1d8d21dc9b3f70b8a53fb15930fbe37
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/FTOptoix_project_First@BrowseName"
+  - Name: NavigationPanel1
+    Id: g=2b2881b22217adb89794819e01cbfab5
+    Type: NavigationPanel
+    Children:
+    - Name: Panels
+      Id: g=0f7dfbb4210d198c6d44dedaf06ce176
+      Type: BaseObjectType
+      Children:
+      - Name: Panel1
+        Id: g=c6f61e38cdbadb8afbaadec5c5558ab4
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=1a3bd2a99029f00ea095dcad3706923d
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=8fe5c4fd43dbc2a99258c1f36ccf0ce9
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/FTOptoix_project_First/UI/Screens/DYNLINK"
+          Children:
+          - Name: Kind
+            Id: g=52a52c092c7675719d470aab16e22917
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel2
+        Id: g=75d0175278a836caf441bb6a98098e98
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=8a8682df096d12adf2af047629fa2af4
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=0cd95ae31d889ab360e749cc9cb808e7
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/FTOptoix_project_First/UI/Screens/POPUP"
+          Children:
+          - Name: Kind
+            Id: g=8035fafacc277eb583b67e7b4e2e1555
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel3
+        Id: g=8f26774fee327a7a9945b579ae64b365
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=9f398c1ee6c38a0b742c3ee77c5b37f1
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=d22f02ee675a4bf1ef9eb243686ea99f
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/FTOptoix_project_First/UI/Screens/DataLogger"
+          Children:
+          - Name: Kind
+            Id: g=a8434ebc76f9dda6bbaaa16994daaa53
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel4
+        Id: g=046d39dc445839d4cc030d52e4822990
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=9d6687b0f7f51535ed371cfa1ffd18c5
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=ec9b5ec8a9fe81424f6f8daac0ec641d
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/FTOptoix_project_First/UI/Screens/EventLogger"
+          Children:
+          - Name: Kind
+            Id: g=0b33a3b2b5274d4d4dabb4379fdd7fd0
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel5
+        Id: g=786451a0cd1bd5250f8a2b52b9313aef
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=99df73a0394f5d7d931ca6041235741d
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=811e69905b335daefdd0f4055529dd31
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/FTOptoix_project_First/UI/Screens/Trendz"
+          Children:
+          - Name: Kind
+            Id: g=d27450c160613dae12e6a32c57b9cd15
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel6
+        Id: g=7eacd9bf67ca55268f9a4cfececf01c4
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=f523c3728582a4d20405174630461eb0
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=9900e9a7870e7b0403303856fe06497b
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/FTOptoix_project_First/UI/Screens/Alarm"
+          Children:
+          - Name: Kind
+            Id: g=680289357d7bb7934c4fec0a3a1cf766
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel7
+        Id: g=dd70f76b460d81b54837defc7f29000c
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=3d8b5cfd4b8d815ec1dc0d8a527667ef
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=ce01f843411ef739eef987a446012ba0
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/FTOptoix_project_First/UI/Screens/Recipe"
+          Children:
+          - Name: Kind
+            Id: g=2f98df856d497dd363c8ae5cb88dfe62
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel8
+        Id: g=7451f33cdf194b6e89c50ffd52d1638a
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=e31641979d4f1979c9e0ce29b99d8841
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=ebf122bbc70294625acd7421c6cac946
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/FTOptoix_project_First/UI/Screens/Report"
+          Children:
+          - Name: Kind
+            Id: g=f51652c1e6fe38d76f3f8fd97922f402
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel9
+        Id: g=797d4c4e085dfc799d7e5dd66f423d39
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=9b87bf0a2ea0b3b1ae2ae599c1537014
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=54717cc3e6606e1234d67c40567a1d66
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/FTOptoix_project_First/UI/Screens/eChart"
+          Children:
+          - Name: Kind
+            Id: g=ae07ee2b743e5b4a829882aa4b3635bd
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel10
+        Id: g=7b6b84b4c95012f05ecd303dfc60cea3
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=51192685147a4a3b08f4c37a687fa2e4
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=19a8638758dd1349961d110006fb1ac8
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/FTOptoix_project_First/UI/Screens/OPCUA"
+          Children:
+          - Name: Kind
+            Id: g=8be2930a0d65f8e2f9da946c3709e371
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel11
+        Id: g=0c133e3f99e7f38b781775c90b8b5545
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=08746370ccc14ae6c21becdb1af1b9e6
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=43517fea6d1fb42604f85ee87c55bf18
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/FTOptoix_project_First/UI/Screens/User_Group"
+          Children:
+          - Name: Kind
+            Id: g=dbee34d6364ea46a7d00ca8a8111a41f
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel12
+        Id: g=41bcbfbabcc10f8b1ecff0bb806da710
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=db492e567982b8bd3a53db53ca765b1f
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=dd4792f90de51803363621424954db63
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/FTOptoix_project_First/UI/Screens/Session"
+          Children:
+          - Name: Kind
+            Id: g=c2976bb4ba2bed060f7d30ceaaf24fb9
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel13
+        Id: g=bf62ba58be5cf85b87bdf0a05fbbce3e
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=810a2f564ee8fc846c828fecc61e17df
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Panel
+          Id: g=9da3a9dccfd6e7c39bba3ac4aa102151
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/FTOptoix_project_First/UI/Screens/MQTT"
+          Children:
+          - Name: Kind
+            Id: g=11d793ad29d235a34b6aaf0a81e7d349
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+    - Name: CurrentPanel
+      Id: g=b0a33fabb626010e21b1e92d79e85a39
+      Type: NodePointer
+      DataType: NodeId
+      AccessLevel: Read
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Id: g=59c9698eb9fecffdd1fa0258a625c974
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+    - Name: CurrentTabIndex
+      Id: g=3cfef9bf877f862ab5eca55316ae3328
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Class: Reference
+      Target: ns=3;i=1181
+      Direction: Forward
+    - Class: Reference
+      Target: ns=3;i=1183
+      Direction: Forward
+    - Name: Width
+      Id: g=4430c18109b98031fa0d4152a835f2bb
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Id: g=c1440004166c3c33caeed7765df50d1a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: HorizontalAlignment
+      Id: g=7941a35b72914bf83032bc28326fdfd0
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=2ba99d13d7b4149900681d392a00deac
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+- File: Screens/Screens.yaml
+- File: TEMPLATE/TEMPLATE.yaml
+- Name: WebPresentationEngine
+  Id: g=e49e932d92bc95cefce5c690118194bc
+  Type: ns=41;PresentationEngine
+  Children:
+  - Name: Protocol
+    Id: g=47c79fb0bea862d25891b1f310756c99
+    Type: BaseDataVariableType
+    DataType: Protocol
+    Value: 0
+  - Name: IPAddress
+    Id: g=4af56ab6d77d132383207758c6204762
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "10.5.49.9"
+  - Name: Port
+    Id: g=56849a020ea62b7b3a93794054b0d12d
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 8080
+  - Name: StartWindow
+    Id: g=ac2a9884bf3f2f72b2b2cb911eeecdf3
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/FTOptoix_project_First/UI/MainWindow"
+    Children:
+    - Name: Kind
+      Id: g=59d24a64d78f4aaf78e17546877a2465
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
+  - Name: StyleSheet
+    Id: g=4a7b558015f9199b2b401dd654a1e096
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/FTOptoix_project_First/UI/DefaultStyleSheet"
+    Children:
+    - Name: Kind
+      Id: g=1a77d7b8ffaef15393064f1c4bf3fe87
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+  - Name: StartingUser
+    Id: g=b7b84ec5244cf0e24c7d280d82cf0cd5
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Users/Anonymous"
+    Children:
+    - Name: Kind
+      Id: g=cd4c665af6049b6fe1cabd8d81728b28
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+  - Name: Sessions
+    Id: g=3e597155071b3307e40a78f697bda34c
+    Type: BaseObjectType
+    Children:
+    - Name: Session1
+      Id: g=8730d03904d715c41111fe09d909c8a4
+      Type: UISession
+      Children:
+      - Name: IsInteractive
+        Id: g=7235cb8360ea4c2a6baec481b5c9375a
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+        Value: true
+      - Name: IsNative
+        Id: g=35f220fe1622907b7da7b8518c7725fe
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+        Value: false
+      - Name: IsWeb
+        Id: g=1789bdf953bcaa2b71b14f5aa6e7b538
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+        Value: false
+      - Name: IpAddress
+        Id: g=2465b746bea432dd1e3949fe5cfc2b03
+        Type: BaseDataVariableType
+        DataType: String
+        AccessLevel: Read
+        Value: ""
+      - Name: User
+        Id: g=b80015a73f563f8beb055d1298096fae
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Children:
+        - Name: Kind
+          Id: g=c06c2c7ebf0fe2a5c3189527afe08a5b
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+      - Name: ActualLocaleId
+        Id: g=04c634ad00f0b30f95c1a00a435e7429
+        Type: BaseVariableType
+        DataType: LocaleId
+        ReferenceType: HasProperty
+        Value: ""
+      - Name: ActualLanguage
+        Id: g=85fe9e4439e4860a986a4146e50f416a
+        Type: BaseVariableType
+        DataType: LocaleId
+        ReferenceType: HasProperty
+        Value: ""
+      - Name: ActualMeasurementSystem
+        Id: g=74418b2c0eb4cc2210b4b43287d4c922
+        Type: BaseVariableType
+        DataType: MeasurementSystem
+        ReferenceType: HasProperty
+        Value: 0
+      - Name: TimeZoneOffset
+        Id: g=5224d347fe73c45d5f5571d21f249588
+        Type: BaseVariableType
+        DataType: TimeZoneDataType
+        ReferenceType: HasProperty
+        AccessLevel: Read
+      - Name: Groups
+        Id: g=ed7a8bedc2e632a1a357cd863124d07f
+        Type: BaseObjectType
+      - Name: Roles
+        Id: g=97efed5f1b31cda86609ade0020faecb
+        Type: BaseObjectType
+      - Name: Rights
+        Id: g=9f42a01515f0b0751518b0379d9b58d1
+        Type: BaseObjectType
+      - Class: Reference
+        Target: ns=1;i=146
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=266
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=269
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=272
+        Direction: Forward
+      - Name: LoggedIn
+        Id: g=0a8d6f2a51ed0e4503d1767caaa672c1
+        Type: BaseVariableType
+        DataType: Boolean
+        AccessLevel: Read
+        Value: false
+  - Name: MaxNumberOfConnections
+    Id: g=ccb757c1db75b46d7d751b95dfc33c0c
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 5
+- Name: Session1
+  Id: g=0ee43d0cfc99ecb4a4d23ad6514ba268
+  Supertype: UISession
+  Children:
+  - Name: IsInteractive
+    Id: g=cb3936d2da38bfb405793394e0a905ce
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: true
+  - Name: IsNative
+    Id: g=f0f7f34c549f8a1ae7399e51946acea6
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: IsWeb
+    Id: g=c1c0de8f217fa21656ae339d81533a17
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: IpAddress
+    Id: g=e27bd899ba4da199fc5ddf9ce82342e1
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+    Value: ""
+  - Name: User
+    Id: g=b83d41a12ba1646ffbf7bbe968d4d2da
+    Type: NodePointer
+    DataType: NodeId
+    AccessLevel: Read
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=c4b4f7aa8231f0d9a27078a233886bf5
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+  - Name: ActualLocaleId
+    Id: g=da4faec60de20930ebbe45c776d0c2ee
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: ""
+  - Name: ActualLanguage
+    Id: g=d98c36cd5dbbb3de6e39f2b61c1a81e0
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: ""
+  - Name: ActualMeasurementSystem
+    Id: g=b2a8e119c44ea543a4e59ee443ed2780
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 0
+  - Name: TimeZoneOffset
+    Id: g=9b84650d7ba9293f991c78ad27c14fdc
+    Type: BaseVariableType
+    DataType: TimeZoneDataType
+    ReferenceType: HasProperty
+    AccessLevel: Read
+  - Name: Groups
+    Id: g=441cbecfc9e087fb163e80295ee626d0
+    Type: BaseObjectType
+  - Name: Roles
+    Id: g=1d5c911212740f12f3a1c33a690546ee
+    Type: BaseObjectType
+  - Name: Rights
+    Id: g=84f808afb974aded19ba80692364c2f3
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=1;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=1;i=266
+    Direction: Forward
+  - Class: Reference
+    Target: ns=1;i=269
+    Direction: Forward
+  - Class: Reference
+    Target: ns=1;i=272
+    Direction: Forward
+  - Name: LoggedIn
+    Id: g=a779de4669a40a7d3963f1c7ce4ad7a4
+    Type: BaseVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: false
+  - Name: IdleTimeoutEnabled
+    Id: g=151c2ac91283104e6249633ea0c071f7
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: false
+  - Name: Variable1
+    Id: g=fe8f653da7f090fc28d0629202d8daf2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0

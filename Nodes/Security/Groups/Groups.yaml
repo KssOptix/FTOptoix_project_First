@@ -1,0 +1,25 @@
+Name: Groups
+Id: g=33ac98afcbbcd645bc8146197074cc43
+Type: GroupsCategoryFolder
+Children:
+- Name: Admin
+  Id: g=d908d0848be931db529d043e9d4a9a2d
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=67b5fd8edfeb0165a1e51323e35edb76
+- Name: Engineer
+  Id: g=04c9f700919278da3c0cc04393d82a03
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=1785fc6fd5a457071eb932ba0fc3e921
+- Name: Opearator
+  Id: g=429ffad0a542ca53dcd2632f7edeab60
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=be2b5aaaa3f2bae88ea2acac2c84b19e
